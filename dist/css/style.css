@@ -10,7 +10,7 @@ html{
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.6rem;
-	overflow-x: hidden;
+	/* overflow: hidden; */
 }
 a,a:hover{
 	text-decoration: none;
@@ -60,6 +60,7 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+	overflow-x: hidden;
 }
 nav{
 	display: flex;
@@ -296,9 +297,9 @@ footer .pink{
 }
 
 @media(max-width: 768px){
-	body{
+	/* body{
 		overflow-x: hidden !important;
-	}
+	} */
 	footer form input{
 		display: block;
 		width: 400px !important;
