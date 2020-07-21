@@ -296,6 +296,9 @@ footer .pink{
 }
 
 @media(max-width: 768px){
+	body{
+		overflow-x: hidden;
+	}
 	footer form input{
 		display: block;
 		width: 400px !important;
@@ -309,7 +312,10 @@ footer .pink{
 }
 @media(max-width: 450px){
 	footer form input{
-		width: 300px !important;
+		width: 290px !important;
+	}
+	footer .social a{
+		margin-right: 20px;
 	}
 }
 
