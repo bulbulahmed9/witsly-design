@@ -297,7 +297,7 @@ footer .pink{
 
 @media(max-width: 768px){
 	body{
-		overflow-x: hidden;
+		overflow-x: hidden !important;
 	}
 	footer form input{
 		display: block;
